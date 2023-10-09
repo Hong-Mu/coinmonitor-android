@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.CoinMonitor" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryVariant">@color/red</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:statusBarColor">@color/red</item>
+    </style>
+
+    <style name="Theme.CoinMonitor.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/red</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/graph</item>
+        <item name="postSplashScreenTheme">@style/Theme.CoinMonitor</item>
+    </style>
+</resources>
